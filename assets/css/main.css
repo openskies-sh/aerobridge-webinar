@@ -313,6 +313,17 @@ ul li {
   text-decoration: none;
 }
 
+#sib-container input:-ms-input-placeholder {
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  color: #c0ccda;
+}
+
+#sib-container input::placeholder {
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  color: #c0ccda;
+}
 /* 
  * 5.0 Site Header
  */
