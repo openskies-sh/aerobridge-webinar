@@ -1,168 +1,162 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
     <title>Aerobridge Webinar</title>
 
-    <!-- css -->
-    <link rel="stylesheet" href="www/css/bootstrap.min.css">
-    <link rel="stylesheet" href="www/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Bootstrap core CSS -->
+<link href="assets/bootstrap4/css/bootstrap.min.css" rel="stylesheet">
+
+<meta name="theme-color" content="#563d7c">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="assets/bootstrap4/css/jumbotron.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/sib-styles.css">
-</head>
+  </head>
+  <body>
+    
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<body data-spy="scroll" data-target="#site-nav">
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#speakers">Speakers</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#registration">Register</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
-        <div class="container">
-            <div class="navbar-header">
+<main role="main">
 
-                <!-- logo -->
-                <div class="site-branding">
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Aerobridge Webinar</h1>
+      <h4>4 August 2021 Wednesday</h4><br>
+      <p>Join us to get introduced to the open-source software stack to interact with Digital Sky API and the drone.</p>
+      <p><a class="btn btn-primary btn-lg" href="#registration" role="button">Register Now &raquo;</a></p>
+    </div>
+  </div>
 
-                    </a>
-                </div>
+  <div class="container">
+    <!-- Example row of columns -->
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <h2>How can Aerobridge help you?</h2>
+        <p class="text-muted">Know more about how this world-class open-source community can help your operations in India:</p>
+        <br>
+        <ul class="list-group">
 
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items"
-                    aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+            <li class="list-group-item">Standard way to communicate with Digital Sky APIs</li>
+            <li class="list-group-item">Integration with PX4 / ArduControl </li>
+            <li class="list-group-item">Manage permissions and flight logs</li>
+            <li class="list-group-item">RFM integration</li>
+            <li class="list-group-item">Easily manage compliance with NPNT</li>
 
-            </div><!-- /.navbar-header -->
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h2>Who should attend?</h2>
+        <p class="text-muted">This is a webinar focused on the full "Aerobridge Stack" for interacting with the Digital Sky APIs and RFM/GCS integration. </p>
+        <br>
+        <ul class="list-group">
 
-            <div class="collapse navbar-collapse" id="navbar-items">
-                <ul class="nav navbar-nav navbar-right">
+            <li class="list-group-item">Technical Developers</li>
+            <li class="list-group-item"> Manufacturers /  Operators in India</li>
+            
+            <li class="list-group-item">Academic Researchers / R&D entities</li>
+            <li class="list-group-item">Policy Makers</li>
+            <li class="list-group-item">Open-Source Enthusiasts</li>
 
-                    <!-- navigation menu -->
-                    <li class="active"><a data-scroll href="#about">About</a></li>
-                    <li><a data-scroll href="#speakers">Speakers</a></li>
+        </ul>
+      </div>    
+    </div>
+    
+    <br>
+    <hr>
+    <br>
+    <div id="about" class="row">        
+        <h2>What is Aerobridge? </h2>
+        
+    </div>
+    <div class="row">           
+        <br> <br>
+        <div class="col-md-12">     
+          <img alt="" class="img-fluid" src="assets/images/partner/logo.png">               
+        </div> 
+        <p>The Directorate General of Civil Aviation (DGCA) in India has unveiled a policy of "No permission - No takeoff" for drone flights. This means that public and private companies intending to fly drones in India need to interface with DGCA's infrastructure for flight permissions and other authorizations. These APIs are called India's Digital Sky eco-system. Aerobridge is a server that helps you interface with the APIs in a standardized fashion and be in compliance with the regulatory requirements around operating drones. Find more information got to <a href="https://www.aerobridge.in">Aerobridge.in</a></p>
+      </div>
+      <br>
+    <div id="speakers" class="row">        
+        <h2>Speakers</h2>
+        
+    </div>
+    <br>
+    <div class="row">
+        
+        <div class="col-md-6">
+          <div class="card mb-6 shadow-sm">
+              
+            <img alt="" class="img-responsive center-block"
+            src="https://about.openskies.sh/images/profile/hb-profile.jpg" width="100%">
+            
+            <div class="card-body">
+                <h4>Dr. Hrishikesh Ballal </h4>
+                <p class="card-text">             
+                    <p class="text-muted">Managing Director of Openskies Aerial Technology Ltd. <br> Lead Developer of Aerobridge. </p>
+                <p>More information at: <a href="https://www.hrishikeshballal.net">www.hrishikeshballal.net.</a></p>
 
-
-                    <li><a data-scroll href="#registration">Register!</a></li>
-                    <li><a href="https://github.com/openskies-sh/aerobridge"><i class="ion-social-github"></i></a></li>
-                    <li><a href="https://forms.gle/qdUgjJHiFQn2Yuhg6"><i class="ion-code"></i></a></li>
-                    <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
-
-
-                </ul>
+            </p>
+              
             </div>
-        </div><!-- /.container -->
-    </nav>
-    <header id="site-header" class="site-header valign-center">
-        <div class="intro">
-            <h1>Aerobridge Webinar</h1>
-            <h3>4 August 2021 Wednesday</h3>
-            <p>Join us to get introduced to open-source software stack to interact with the Digital Sky API and the drone.</p>
-            <br>
-            <a class="btn btn-white" data-scroll href="#registration">Register Now</a>
-
+          </div>
         </div>
-    </header>
-
-    <section id="about" class="section about">
-        <div class="container">
-            <div class="row">
-
-                <figure>
-                    <img alt="" class="img-responsive" width="50%" src="assets/images/partner/logo.png">
-                </figure>
-
-            </div>
-            <div class="row">
-
-                <div class="col-sm-6">
-
-                    <h3 class="section-title multiple-title">How can Aerobridge help you? </h3>
-
-                    <br>
-
-                    <ul class="list-arrow-right">
-
-                        <li>Standard way to communicate with Digital Sky APIs</li>
-                        <li>Integration with PX4 / ArduControl </li>
-                        <li>Manage permissions and flight logs</li>
-                        <li>RFM integration</li>
-                        <li>Easily manage compliance with NPNT</li>
-
-                    </ul>
-                    <br>
-
-
-                </div><!-- /.col-sm-6 -->
-
-                <div class="col-sm-6">
-
-                    <h3 class="section-title">Who should attend </h3>
-                    <br>
-                    <p>
-                        This is a webinar focused on the full "Aerobridge Stack" for interacting with the Digital Sky
-                        APIs and RFM/GCS integration. We will talk about the current and upcoming work with a technical
-                        focus:
-                    </p>
-
-
-                    <ul class="list-arrow-right">
-
-                        <li>Technical Developers</li>
-                        <li>Drone Operators in India</li>
-                        <li>Drone Manufacturers in India</li>
-                        <li>Academic Researchers</li>
-                        <li>Policy Makers</li>
-                        <li>Open-Source Enthusiasts</li>
-
-                    </ul>
-
-                </div><!-- /.col-sm-6 -->
-
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section>
-
-    <section id="speakers" class="section about">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-
-                    <h3 class="section-title">Speaker</h3>
-                    <br> <br>
-                    <figure>
-                        <img alt="" class="img-responsive center-block"
-                            src="https://about.openskies.sh/images/profile/hb-profile.jpg" width="240">
-                    </figure>
-                    <center>
-                        <p>
-                            <h3>Dr. Hrishikesh Ballal </h3>
-                            <h4><br> Managing Director of Openskies Aerial Technology Ltd. <br> Lead Developer of Aerobridge. </h4>
-                        </p>
-                    </center>
-
-
-                </div><!-- /.col-sm-6 -->
-
-                <div class="col-sm-6">
-
-                    <h3 class="section-title multiple-title"> <br> <br> </h3> <br> <br>
-                    <br>
-                    <p>He completed his PhD in Geodesign from the Centre for Advanced SpatialAnalysis at <u>University College London</u>. His engineering background
-                        includes master’s degrees from the <u>University of Michigan</u> in Ann Arborand <u>Massachusetts Institute of Technology</u> in Cambridge, USA and abachelor’s degree in Mechanical Engineering from Nagpur University in Nagpur, India. Moreinformation at <b> <a href="https://www.hrishikeshballal.net">www.hrishikeshballal.net.</a></b></p>
-
-
-
-                </div><!-- /.col-sm-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section>
-
-
-    <section id="registration" class="section registration">
-
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div id="registration" class="row">        
+        <h2>Register</h2>        
+    </div>
+    
+    <div id="" class="row">     
+        <div class="col-md-12">
+       <br>
         <!-- START - We recommend to place the below code where you want the form in your website html  -->
         <div class="sib-form" style="text-align: center;
         background-color: #EFF2F7;                                           ">
@@ -288,23 +282,26 @@
         <!-- END - We recommend to place the below code where you want the form in your website html  -->
         <!-- End Sendinblue Form -->
 
+    </div>   
+    </div>
+  </div> <!-- /container -->
 
-        <footer class="site-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="site-info">See our our project on <a href="https://github.com/openskies-sh/aerobridge">Github</a> or Join our <a href="https://forms.gle/qdUgjJHiFQn2Yuhg6"> Slack Channel</a></p>
+</main>
+<br><br>
+<hr>
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="site-info">See our our project on <a href="https://github.com/openskies-sh/aerobridge">Github</a> or Join our <a href="https://forms.gle/qdUgjJHiFQn2Yuhg6"> Slack Channel</a></p>
 
-                    </div>
-                </div>
             </div>
-        </footer>
+        </div>
+    </div>
+</footer>
 
-        <!-- script -->
-        <script src="www/js/jquery.min.js"></script>
-        <script src="www/js/bootstrap.min.js"></script>
-        <script src="www/js/smooth-scroll.min.js"></script>
-        <script src="assets/js/main.js"></script>
-</body>
-
+    <script src="assets/bootstrap4/js/jquery-3.5.1.slim.min.js" ></script>
+    <script src="assets/bootstrap4/js/bootstrap.bundle.min.js" ></script>
+    <br>
+  </body>
 </html>
